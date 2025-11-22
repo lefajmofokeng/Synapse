@@ -4,7 +4,7 @@ A sophisticated, modern accordion component that showcases strategic services wi
 
 ## Live Demo
 
-https://thisislefa.github.io/strategic-excellence
+https://thisislefa.github.io/StrategicExcellence
 
 ## Features
 
@@ -162,4 +162,5 @@ SOFTWARE.
 - Professional imagery from Pexels
 - Fonts from Google Fonts
 - Icons from Feather Icons
+
 
