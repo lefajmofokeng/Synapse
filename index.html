@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strategic Excellence Component</title>
+    
+    <!-- Import Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Inter for main text -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <!-- Playfair Display for the italic 'Excellence' title -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <section class="se-container">
+        <!-- Header -->
+        <header class="se-header">
+            <h1 class="se-title-wrapper">
+                <span class="se-title-sans">Strategic</span>
+                <span class="se-title-serif">Excellence</span>
+            </h1>
+            
+            <a href="#" class="se-btn">
+                Contact Us
+                <span class="se-btn-icon-circle">
+                    <!-- Arrow Up Right Icon -->
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="7" y1="17" x2="17" y2="7"></line>
+                        <polyline points="7 7 17 7 17 17"></polyline>
+                    </svg>
+                </span>
+            </a>
+        </header>
+
+        <!-- Content Grid -->
+        <div class="se-grid">
+            
+            <!-- Left: Accordion -->
+            <div class="se-accordion">
+                
+                <!-- Item 1 (Active by default) -->
+                <div class="se-acc-item active">
+                    <div class="se-acc-header" onclick="toggleAccordion(this)">
+                        <span class="se-acc-number">[01]</span>
+                        <h3 class="se-acc-title">Strategy Consulting</h3>
+                    </div>
+                    <div class="se-acc-content">
+                        <div class="se-acc-description">
+                            <p class="se-text">
+                                Guiding individuals and businesses with smart financial planning, investment advice, and long-term wealth strategies.
+                            </p>
+                            <ul class="se-list">
+                                <li class="se-list-item">
+                                    <!-- Checkmark Icon -->
+                                    <svg class="se-checkmark" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <polyline points="20 6 9 17 4 12"></polyline>
+                                    </svg>
+                                    Personalized Financial Planning
+                                </li>
+                                <li class="se-list-item">
+                                    <svg class="se-checkmark" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <polyline points="20 6 9 17 4 12"></polyline>
+                                    </svg>
+                                    Investment & Portfolio Guidance
+                                </li>
+                                <li class="se-list-item">
+                                    <svg class="se-checkmark" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <polyline points="20 6 9 17 4 12"></polyline>
+                                    </svg>
+                                    Risk Management & Wealth Protection
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 2 -->
+                <div class="se-acc-item">
+                    <div class="se-acc-header" onclick="toggleAccordion(this)">
+                        <span class="se-acc-number">[02]</span>
+                        <h3 class="se-acc-title">Market Insights and Analysis</h3>
+                    </div>
+                    <div class="se-acc-content">
+                        <div class="se-acc-description">
+                            <p class="se-text">
+                                Deep dive analysis into market trends to position your business ahead of the curve.
+                            </p>
+                            <ul class="se-list">
+                                <li class="se-list-item">
+                                    <svg class="se-checkmark" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <polyline points="20 6 9 17 4 12"></polyline>
+                                    </svg>
+                                    Competitor Analysis
+                                </li>
+                                <li class="se-list-item">
+                                    <svg class="se-checkmark" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <polyline points="20 6 9 17 4 12"></polyline>
+                                    </svg>
+                                    Trend Forecasting
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 3 -->
+                <div class="se-acc-item">
+                    <div class="se-acc-header" onclick="toggleAccordion(this)">
+                        <span class="se-acc-number">[03]</span>
+                        <h3 class="se-acc-title">Wealth & Finance Advisory</h3>
+                    </div>
+                    <div class="se-acc-content">
+                        <div class="se-acc-description">
+                            <p class="se-text">
+                                Expert advice on managing assets and optimizing financial growth for long-term stability.
+                            </p>
+                            <ul class="se-list">
+                                <li class="se-list-item">
+                                    <svg class="se-checkmark" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <polyline points="20 6 9 17 4 12"></polyline>
+                                    </svg>
+                                    Asset Allocation
+                                </li>
+                                <li class="se-list-item">
+                                    <svg class="se-checkmark" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <polyline points="20 6 9 17 4 12"></polyline>
+                                    </svg>
+                                    Tax Optimization
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 4 -->
+                <div class="se-acc-item">
+                    <div class="se-acc-header" onclick="toggleAccordion(this)">
+                        <span class="se-acc-number">[04]</span>
+                        <h3 class="se-acc-title">Digital Transformation</h3>
+                    </div>
+                    <div class="se-acc-content">
+                        <div class="se-acc-description">
+                            <p class="se-text">
+                                Leveraging modern technology to streamline operations and enhance digital presence.
+                            </p>
+                            <ul class="se-list">
+                                <li class="se-list-item">
+                                    <svg class="se-checkmark" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <polyline points="20 6 9 17 4 12"></polyline>
+                                    </svg>
+                                    Process Automation
+                                </li>
+                                <li class="se-list-item">
+                                    <svg class="se-checkmark" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <polyline points="20 6 9 17 4 12"></polyline>
+                                    </svg>
+                                    Digital Strategy Implementation
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Right: Image -->
+            <div class="se-image-wrapper">
+                <!-- Sourced a professional "man in suit with tablet" image to match context -->
+                <img src="https://images.pexels.com/photos/1438081/pexels-photo-1438081.jpeg" alt="Strategic Consultant" class="se-image">
+            </div>
+
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
