@@ -8,6 +8,8 @@ A modular, high-performance UI component system designed for modern business and
 
 Synapse is a **dual-panel layout component** featuring a numbered accordion interface for service detailing alongside a contextual hero image. It’s built for clarity, engagement, and seamless integration into corporate, consulting, or portfolio sites.
 
+<img width="1920" height="1126" alt="synapse" src="https://github.com/user-attachments/assets/036e2b0a-1d4c-4cca-9966-603f8cde4bd8" />
+
 ## Live Deployment
 
 [View Live Demo](https://lefajmofokeng.github.io/Synapse)  
@@ -209,4 +211,5 @@ Just as synapses connect neurons to transmit information, this component connect
 ---
 
 **Built by [Lefa Mofokeng](https://github.com/lefajmofokeng)**  
+
 
