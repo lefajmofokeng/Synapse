@@ -10,7 +10,7 @@ Synapse is a **dual-panel layout component** featuring a numbered accordion inte
 
 ## Live Deployment
 
-[View Live Demo](https://thisislefa.github.io/Synapse)  
+[View Live Demo](https://lefajmofokeng.github.io/Synapse)  
 
 ---
 
@@ -208,4 +208,5 @@ Just as synapses connect neurons to transmit information, this component connect
 
 ---
 
-**Built by [Lefa Mofokeng](https://github.com/thisislefa)**  
+**Built by [Lefa Mofokeng](https://github.com/lefajmofokeng)**  
+
